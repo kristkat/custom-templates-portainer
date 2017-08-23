@@ -25,7 +25,7 @@
   },
   {
     "title": "Funktion Server",
-    "description": "",
+    "description": "Manages funktions",
     "categories": ["docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/365px-Lambda_logo.svg_.png",
@@ -60,6 +60,20 @@
       "3000/tcp"
     ],
     "volumes": ["/usr/src/redmine/files"]
+  }
+  ,
+  {
+    "title": "Elasticsearch",
+    "description": "Open-source search and analytics engine",
+    "categories": ["database"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/elasticsearch.png",
+    "image": "elasticsearch:latest",
+    "ports": [
+      "9200/tcp",
+      "9300/tcp"
+    ],
+    "volumes": ["/usr/share/elasticsearch/data"]
   }
   
   
