@@ -9,6 +9,7 @@
 1. Create JSON file where you can describe your templates. 
   How to write this file you can find here: https://portainer.readthedocs.io/en/latest/templates.html
 2. Upload this file in GitHub for example so that you can access it with URL
+3. my example of templares.json you can find here: https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/templates.json
 
 ### Using the settings section in Portainer UI 
 * **Starting Portainer:**
@@ -23,3 +24,4 @@
 * **Starting Portainer:**
 1. docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer --templates http://my-host.my-domain/templates.json
 On the place of  http://my-host.my-domain/templates.json you should write URL with your JSON file
+Documentation about it you find here: https://portainer.readthedocs.io/en/latest/configuration.html#use-your-own-templates 
