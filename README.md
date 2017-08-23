@@ -7,11 +7,11 @@
 
 ## Ways to create your own templates
 ### Using the settings section in Portainer UI 
-* Create JSON file where you can describe your templates. 
+1. Create JSON file where you can describe your templates. 
   How to write this file you can find here: https://portainer.readthedocs.io/en/latest/templates.html
-* Upload this file in GitHub for example so that you can access it with URL
-  **_Starting Portainer :_**
-* docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
-* access Portainer by pointing your web browser at http://DOCKER_HOST:9000
-* in portainer UI you go in Settings and write URL with your templates
-  <img src="https://raw.githubusercontent.com/kristkat/my-template-portainer/master/2017-08-22.png" width="77%"/>
+2. Upload this file in GitHub for example so that you can access it with URL
+* ** Starting Portainer : **
+1. docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+2. access Portainer by pointing your web browser at http://DOCKER_HOST:9000
+3. in portainer UI you go in Settings and write URL with your templates
+ ![Alt text](https://raw.githubusercontent.com/kristkat/my-template-portainer/master/2017-08-22.png "Optional title")
