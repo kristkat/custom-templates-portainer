@@ -4,7 +4,7 @@
     "description": "Time management",
     "categories": ["docker"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/Hourglass.png",
+    "logo": "https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/Hourglass.png",
     "image": "registry:latest",
     "ports": [
       "5000/tcp"
@@ -16,7 +16,7 @@
     "description": "App for AOI machines",
     "categories": ["docker"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/logo_social_media_ROUND.png",
+    "logo": "https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/logo_social_media_ROUND.png",
     "image": "registry:latest",
     "ports": [
       "5000/tcp"
@@ -28,7 +28,7 @@
     "description": "",
     "categories": ["docker"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/365px-Lambda_logo.svg",
+    "logo": "https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/365px-Lambda_logo.svg_.png",
     "image": "registry:latest",
     "ports": [
       "5000/tcp"
@@ -54,7 +54,7 @@
     "description": "Open-source project management tool",
     "categories": ["project-management"],
     "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/stacked_wm_no_bg.png",
+    "logo": "https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/stacked_wm_no_bg.png",
     "image": "redmine:latest",
     "ports": [
       "3000/tcp"
