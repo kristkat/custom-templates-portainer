@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Chronocommand",
+    "description": "Time management",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/Hourglass.png",
+    "image": "registry:latest",
+    "ports": [
+      "5000/tcp"
+    ],
+    "volumes": ["/var/lib/registry"]
+  },  
+  {
+    "title": "ScaleIT",
+    "description": "App for AOI machines",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/logo_social_media_ROUND.png",
+    "image": "registry:latest",
+    "ports": [
+      "5000/tcp"
+    ],
+    "volumes": ["/var/lib/registry"]
+  },
+  {
+    "title": "Funktion Server",
+    "description": "",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/365px-Lambda_logo.svg",
+    "image": "registry:latest",
+    "ports": [
+      "5000/tcp"
+    ],
+    "volumes": ["/var/lib/registry"]
+  },
+  
+  {
+    "title": "Redmine",
+    "description": "Open-source project management tool",
+    "categories": ["project-management"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/redmine.png",
+    "image": "redmine:latest",
+    "ports": [
+      "3000/tcp"
+    ],
+    "volumes": ["/usr/src/redmine/files"]
+  },
+  
+  {
+    "title": "Gitlab",
+    "description": "Open-source project management tool",
+    "categories": ["project-management"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/kristkat/my-template-portainer/master/stacked_wm_no_bg.png",
+    "image": "redmine:latest",
+    "ports": [
+      "3000/tcp"
+    ],
+    "volumes": ["/usr/src/redmine/files"]
+  }
+  
+  
+]
