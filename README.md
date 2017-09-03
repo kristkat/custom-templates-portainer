@@ -1,5 +1,4 @@
-# custom-templates-portainer
-## Creating your own templates in portainer
+# Creating your own templates in portainer
 
 ## Resources
 * [Deploy Portainer](https://portainer.readthedocs.io/en/latest/deployment.html)
@@ -17,7 +16,7 @@
 2. access Portainer by pointing your web browser at http://DOCKER_HOST:9000
 3. in portainer UI you go in Settings and write URL with your templates
 <p align="center">
-  <img title="portainer" src='https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/2017-08-22.png' />
+  <img title="portainer" src='https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/settings.png' />
 </p>
 
 ### Using --templates flag 
@@ -26,3 +25,12 @@
 On the place of  http://my-host.my-domain/templates.json you should write URL with your JSON file. 
 This way of adding your templates in portainer works without going to settings in portainer UI.
 Documentation about it you find here: https://portainer.readthedocs.io/en/latest/configuration.html#use-your-own-templates 
+
+## Result
+<p align="center">
+  <img title="portainer" src='https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/result1.png' />
+</p>
+<p align="center">
+  <img title="portainer" src='https://raw.githubusercontent.com/kristkat/custom-templates-portainer/master/result2.png' />
+</p>
+
